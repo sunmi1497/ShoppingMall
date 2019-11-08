@@ -1,0 +1,247 @@
+body{
+	overflow-x: hidden;
+}
+.clear{clear:both;} 
+#wrap{width:100%; 
+			margin:0; 
+			margin-right:auto;
+			margin-left:auto; 
+			min-height:780px;	}
+			
+#first_div{
+	position:relative;
+	width: 120%; 
+	height:150px;
+	left:-10%;
+	margin: 0 auto;
+    background: white;  
+}
+#top{
+	position:relative;
+	width:120%;
+	height:40px;
+	top:-10px;
+	margin: 0 auto;
+	border-bottom: 1px solid silver;
+	background:#F9F8F6;
+}
+#top_left{
+	position:absolute;
+	left:450px;
+	width: 500px;
+	height: 30px;
+	float: left;
+	line-height: 40px;
+	font-size:72%;
+}
+
+#top_right{
+	position:absolute;
+	left:1024px;
+	width:520px;
+	height:30px;
+	line-height: 40px;
+	float: left;
+	
+}
+#top_right ul{width:438px; height:30px; margin: 0; padding: 0; float: right;}
+#top_right li{ 
+	font-size:72%;
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+	float: left;
+	margin-right: 35px;
+}
+#top_right li a{ 
+	color: black;
+	text-decoration: none;
+}
+#top_right li a:hover{
+	color: red;
+	text-decoration: none;
+}
+#base{
+	position:relative;
+	color: black; 
+	font-weight: bold;
+	margin:0 auto;
+	width: 1024px; 
+	height: 100px;
+}
+
+#category{
+	position:relative;
+	width: 120%;
+	height: 50px;
+	line_height:50px;
+	background:#3A5B1A;
+	left:-10%;
+	float: left;	
+}
+
+#category_menu{
+	width: 1024px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#menu01{
+	width: 144px;
+	height: 50px;
+	background:#3A5B1A;
+	float: left;
+	color: white;
+	line-height:50px;
+	text-align:center;
+	border-right: 2px solid black;
+}
+
+#menu01 a{
+	color: white;
+	text-decoration: none;	
+}
+#menu01:hover{ 
+	text-decoration: none;	
+	background:#E1191C;
+}
+
+#side01{
+	width: 30px;
+	height: 10px;
+	border-radius: 30px 30px 30px 30px;
+	background: white;
+	left: 50%;
+	top: 30%;
+}
+#base_01{
+	position: absolute;
+	width: 250px;
+	height: 100px;
+	float: left;
+	line-height: 100px;
+	text-align: center;
+}
+#base_02{
+	position:relative;
+	width: 540px;
+	height: 100px;
+	left:300px;
+	float: left;
+}
+
+.search_bar{
+	position:absolute;
+	width:420px;
+	height: 40px;
+	line-height:40px;
+	border: 3px solid silver;
+	border-radius:5px;
+	left: 10%;
+	top: 30%;
+	float: left;
+}
+#t_search{
+	position:relative;
+	width:240px;
+	height: 30px;
+	top:-2px;
+	left:0px;
+	border:1px solid silver;
+}
+#button_search{
+	width: 50px;
+	height:30px; 
+}
+#id{width:90px; height: 30px; 
+	margin-top:5px;
+	background:#EDEDEE; 
+}
+#base_03{
+	position: absolute;
+	width: 220px;
+	height: 100px;
+	left:800px;
+	top:-10px;
+	float: left;
+}
+
+#box01{
+	width: 100px;
+	height: 35px;
+	line-height:35px;
+	background:#E1191C;
+	color: white;
+	float: left;
+	text-align: center;
+	margin-left: 20px;
+	border-radius: 0 0 10px 20px;
+	list-style:none;
+}
+#box02{
+	width: 100px;
+	height: 35px;
+	line-height:35px;
+	background: #35324E;
+	color: white;
+	float: left;
+	text-align: center;
+	border-radius: 0 0 20px 10px;	
+	list-style:none;
+}
+#box01 a{
+	color: white;
+	text-decoration: none;	
+}
+#box02 a{
+	color: white;
+	text-decoration: none;	
+}
+
+#footer{
+	position:relative;
+	width:120%;
+	height:250px;
+	margin:0 auto;
+	left:-10%;
+	background:#F9F8F6;
+}
+#menubar{
+	font-size:90%;
+ 	margin-left:760px;
+ 	width: 1024px;
+ 	height: 50px;
+}
+#menubar li{	list-style:none; margin:0 auto; 	float:left;
+ }
+ 
+#foot{
+	font-size:90%;
+	color:gray;
+	margin:0 auto;
+	width:1024px;
+	height:200px;	
+}
+#foot img{ float: left; margin: 0; padding: 0;}
+
+#main{position:relative;width:1024px; height:400px; top:30px; left:60px; margin:0 auto;}
+#serv{position:relative; width:500px; height:375px;
+ float:left;  overflow:hidden; }
+#serv_1{position:absolute; width:3000px; height:375px; 
+ float:left; }
+#serv_1 img{width:500px; height:375px;}
+.tab{position:relative; width:1024px; height:38px; margin-top:30px;	margin-left: auto;	margin-right: auto;}
+.nav{position:absolute; width:200px; }
+#nav1{width:100px; border-radius:10px; border:1px solid #d3d3d3;}
+#nav2{width:100px; border-radius:10px; border:1px solid #d3d3d3;}
+
+.list{width:1024px; border-collapse: collapse; 	font-size: 12px; line-height: 24px; 
+ margin: 0; margin-left:auto; margin-right: auto;}
+.list td{border:#d3d3d3 solid 1px;padding: 5px;}
+a {text-decoration:none;	color: black; }
+a:HOVER {color:red;}
+
+
+table{
+    width:100%;                  /* 전체 테이블 길이 설정 */
+}
